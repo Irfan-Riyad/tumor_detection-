@@ -1,0 +1,14 @@
+# Core
+streamlit>=1.36.0
+torch>=2.2.0
+torchvision>=0.17.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Explainability
+lime>=0.2.0.1
+scikit-image>=0.22.0
+opencv-python-headless>=4.9.0.80
+
+# Viz
+matplotlib>=3.8.0\n
