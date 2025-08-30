@@ -44,8 +44,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-AUTHOR = "Your Name" 
-st.caption(f"by **{AUTHOR}**")
+
 
 # ------------------------------
 # Utility: Caching
@@ -240,6 +239,7 @@ def _lime_predict_proba_fn(model, image_size):
 # ------------------------------
 # Sidebar: Model & Assets
 # ------------------------------
+st.sidebar.title("by *Md Riyad Hossain*")
 st.sidebar.title("⚙️ Settings")
 st.sidebar.write("Choose a model, load weights, and provide class names (44 classes).")
 
