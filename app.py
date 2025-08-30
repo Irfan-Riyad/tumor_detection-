@@ -397,3 +397,5 @@ if uploaded is not None:
 # ------------------------------
 st.markdown("---")
 st.caption("Built with Streamlit + PyTorch. Provide your own trained 44-class weights and labels to match the dataset.")
+st.title("Brain Tumor Classifier")
+st.caption("by **Md Riyad Hossain**")
