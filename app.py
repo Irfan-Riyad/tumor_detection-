@@ -21,6 +21,7 @@ import cv2  # for Grad-CAM heatmap overlay
 from lime import lime_image
 from skimage.segmentation import mark_boundaries
 
+
 # ------------------------------
 # App Config
 # ------------------------------
@@ -42,6 +43,9 @@ st.markdown(
     ''',
     unsafe_allow_html=True
 )
+
+AUTHOR = "Your Name" 
+st.caption(f"by **{AUTHOR}**")
 
 # ------------------------------
 # Utility: Caching
@@ -397,5 +401,4 @@ if uploaded is not None:
 # ------------------------------
 st.markdown("---")
 st.caption("Built with Streamlit + PyTorch. Provide your own trained 44-class weights and labels to match the dataset.")
-st.title("Brain Tumor Classifier")
 st.caption("by **Md Riyad Hossain**")
